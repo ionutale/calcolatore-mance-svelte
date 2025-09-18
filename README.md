@@ -90,6 +90,17 @@ L'app viene automaticamente deployata su GitHub Pages tramite GitHub Actions:
 2. **Build**: Installa dipendenze e build dell'app
 3. **Deploy**: Carica i file statici su GitHub Pages
 
+### Risoluzione problemi (404 su GitHub Pages)
+
+Se aprendo la demo vedi una pagina 404:
+
+- Verifica in GitHub: `Settings` → `Pages` → `Build and deployment` che la `Source` sia impostata su `GitHub Actions`.
+- Controlla lo stato dei workflow: `Actions` → workflow "Deploy to GitHub Pages" deve essere `success`.
+- Attendi 1-2 minuti dopo il primo deploy: l'abilitazione di Pages non è istantanea.
+- Forza il refresh senza cache: macOS `Cmd+Shift+R`.
+
+Note tecniche: il progetto usa `@sveltejs/adapter-static` con `paths.relative = true` e un file `.nojekyll` durante il deploy per servire correttamente la cartella `_app/` sotto il percorso `/calcolatore-mance-svelte/`.
+
 ### Configurazione manuale
 
 Per deployare manualmente:
