@@ -18,6 +18,13 @@ Un'applicazione web semplice e intuitiva per dividere le mance in modo equo tra 
 
 👉 **[Prova l'app live](https://ionutale.github.io/calcolatore-mance-svelte/)**
 
+<p align="center">
+    <img src="./static/screenshot.png" alt="Screenshot Calcolatore Mance Staff" width="700" />
+    <br/>
+    <em>Anteprima dell'app in modalità scura</em>
+  
+</p>
+
 ## 📱 Come funziona
 
 1. **Inserisci il totale delle mance** da dividere
