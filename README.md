@@ -21,7 +21,7 @@ Un'applicazione web semplice e intuitiva per dividere le mance in modo equo tra 
 <p align="center">
     <img src="./static/screenshot.png" alt="Screenshot Calcolatore Mance Staff" width="700" />
     <br/>
-    <em>Anteprima dell'app in modalità scura</em>
+    <em>Anteprima dell'app</em>
   
 </p>
 
